@@ -1,5 +1,5 @@
 
-[cds-snc.github.io/design-research-handbook](guide-product-teams-equipes-produits)
+[http://cds-snc.github.io/guide-product-teams-equipes-produits](http://cds-snc.github.io/guide-product-teams-equipes-produits)
 
 ## Running the repo locally / Exécution locale du répertoire
 This handbook uses [Jekyll](http://jekyllrb.com/) and the [DOCter](https://github.com/cfpb/DOCter) theme.  DOCter needs Jekyll and other dependencies to run locally. Install these dependencies with Bundler by running the following commands.
