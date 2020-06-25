@@ -1,0 +1,65 @@
+<h2>How teams deliver products</h2>
+
+<ul>
+	<li><a href="https://docs.google.com/document/d/1ADYr5uqqu25FX3E1QVCbhmZp-YmsEJsOuvDk02jCKFY/edit">Our principles for delivering services (draft)</a> - What product teams do</li>
+	<li><a href="https://docs.google.com/document/d/15uRvNqwCiJRkRU6u8gyklw38DKtzXtqxRVOT-gXQohY/edit">Delivery team responsibilities (v1)</a> - Who does what on a product team</li>
+	<li><a href="https://drive.google.com/drive/u/0/search?q=phase%20patterns">Phase patterns (v1)</a> - What’s expected when in a product’s life cycle</li>
+	<li><a href="https://gcdigital.slack.com/archives/C2G47TBA4/p1567011920016900?thread_ts=1567011920.016900">The way we work diagram (v2)</a> - Tying It all together</li>
+	<li><a href="https://docs.google.com/document/d/1z_UBsleGrzh720ucN5zf2vb3LFGvj29mHGodx7_1pf4/edit#heading=h.sjqaiear3f3t">I need help…what should I do? (For product team members)</a></li>
+</ul>
+
+<h2>How we do design</h2>
+
+<ul>
+	<li><a href="https://docs.google.com/document/d/16qPih4kPVOa8hiPgXiK--oxwapbJ5T9toQaW6OSN51I/edit?usp=drive_web&amp;ouid=115428102159383580616">Design community career progression framework (v2)</a> - How designers get promoted and evaluated</li>
+	<li><a href="https://www.figma.com/file/CPixUU1tCfzgw3T9vaPSBU/Design-System?node-id=1%3A2">CDS design system components in Figma (very draft)</a> - Our building blocks for designing services</li>
+</ul>
+
+<h2>How we do research</h2>
+
+<ul>
+	<li><a href="https://docs.google.com/document/d/16DGlPORftHaLjJEP31wKMurPD1w8T029JxlTcdG1ufE/edit?usp=drive_web&amp;ouid=115428102159383580616">Research community career progression framework (v2)</a> - How designers get promoted and evaluated</li>
+	<li><a href="https://docs.google.com/document/d/1zLcE911x7enwdujpyPYTDxuF9conNHH6P7SsyucFHrE/edit">Principles for delivery-focused research</a> - How researchers do their work within agile product teams</li>
+</ul>
+
+<h2>How we do software development</h2>
+
+<ul>
+	<li><a href="https://docs.google.com/document/d/1nlWprj7zmSzRWOdOO458QAJfLWFxb4tTRdp08f5f_iU/edit#heading=h.83yfgjlleseu">Software development career progression framework</a> - How software developers get promoted and evaluated</li>
+</ul>
+
+<h2>How we do product management</h2>
+
+<ul>
+	<li><a href="https://docs.google.com/document/d/16DGlPORftHaLjJEP31wKMurPD1w8T029JxlTcdG1ufE/edit?usp=drive_web&amp;ouid=115428102159383580616">Product management career progression framework (v2)</a> - How product managers get promoted and evaluated</li>
+	<li><a href="https://drive.google.com/drive/folders/1HLf3WhjgIaxMOX44I4zuRkQz8bVr0B4c">Product management artifacts</a> - How other PMs organize their teams</li>
+</ul>
+
+<h2>How heads of community support product teams</h2>
+
+<ul>
+	<li><a href="https://docs.google.com/document/d/1iMcHlBdHcQ1yHYgko1w9U5__Lp81RS8Kv4Qb3uaWOeQ/edit">Heads of community rituals and tools</a></li>
+	<li><a href="https://docs.google.com/document/d/1f5_kUAGWmoy86hc3fpqzXtgJOVzeyd3pg2_hc74R6SU/edit">Principles of community management</a></li>
+	<li><a href="https://docs.google.com/document/d/1SeRN-XvhJCM69WfwlOJ3eH3XUdaghunAFWVrI8QT_SQ/edit">Empowering product teams through tough moments</a> - How we interact with product teams when they need our help</li>
+</ul>
+
+<h2>CDS-wide expectations</h2>
+
+<ul>
+	<li><a href="https://docs.google.com/document/d/1ik3HW_g_Z-8cK3lsVr7WxqP_OVdSqUm3FKbEh1izoCw/edit?usp=drive_web&amp;ouid=115428102159383580616">Employee commitment</a> (previously “code of conduct”)</li>
+	<li><a href="https://docs.google.com/document/d/1QRiMvB4-lKrb2v_h2RAQZmUeGo-cAv3FKhVVCm0NR1g/edit">All-team meetings and guidelines</a></li>
+	<li><a href="https://docs.google.com/document/d/1dJ9tQSHBTL5v1JpfLYuTa4jp0kHWaDcnTyI0x5d0xkQ/edit?usp=drive_web&amp;ouid=115428102159383580616">Employee handbook</a></li>
+</ul>
+
+
+
+{% assign mydocs = site.pages | where:"lang","en" | where:"layout","page" |  sort: 'category' | group_by: 'category' %}
+{% for cat in mydocs %}
+<h3>{{ cat.name }}</h3>
+    <ul>
+      {% assign items = cat.items | sort: 'title' %}
+      {% for item in items %}
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+{% endfor %}
