@@ -1,17 +1,17 @@
-importScripts( '/cache-polyfill.js' );
+importScripts( '/guide-product-teams-equipes-produits/cache-polyfill.js' );
 
 var filesToCache = [
   // root
-  '/',
-  '/index.html',
+  '/guide-product-teams-equipes-produits/',
+  '/guide-product-teams-equipes-produits/index.html',
   // css
-  '/assets/css/main.css',
-  '/assets/css/normalize.css',
-  '/assets/css/syntax.css',
+  '/guide-product-teams-equipes-produits/assets/css/main.css',
+  '/guide-product-teams-equipes-produits/assets/css/normalize.css',
+  '/guide-product-teams-equipes-produits/assets/css/syntax.css',
   // images
-  '/assets/img/octocat.png',
+  '/guide-product-teams-equipes-produits/assets/img/octocat.png',
   // pages
-  '/home/','/accueil/',
+  '/guide-product-teams-equipes-produits/home/','/guide-product-teams-equipes-produits/accueil/',
   // posts
   
 ];
