@@ -23,6 +23,16 @@ trans_url: "/responsibilities/"
 *   Being able to demonstrate the working service, and explain the reasoning behind key product decisions.
 *   _For partnership products:_ Coaching their “pair” from the partner on how to adapt their expertise to our way of working.
 
+- <a href="#product-manager-responsibilities">Product manager responsibilities</a>
+- <a href="#partnership-advisor-responsibilities">Partnership advisor responsibilities</a>
+- <a href="#service-owner">Service owner</a>
+- <a href="#researcher">Researcher</a>
+- <a href="#designer">Designer</a>
+- <a href="#developer">Developer</a>
+- <a href="#product-tech-lead">Product Tech Lead</a>
+- <a href="#policy-advisor">Policy advisor</a>
+- <a href="#outreach-advisor">Outreach advisor</a>
+
 
 ### Product manager responsibilities {#product-manager-responsibilities}
 
@@ -130,23 +140,38 @@ _For platform products_
 *   Develop software that meets service/user needs
 *   Test software continuously to ensure it’s functional, secure, and accessible and enable others to change it with confidence
 *   Write clear, concise and well documented software
-*   Provide high quality, timely code reviews to fellow developers as requested.
+*   Provide high quality, timely code reviews to fellow developers as requested
 *   Assign open source license to all CDS written source code, except under specific circumstances
 *   Understand our partner’s current development environment, pain points, and roadmap.
 *   Use and expand on continuous delivery pipeline
 *   Adhere to CDS Software delivery best practices
 *   Make use of ‘infrastructure as code’ and ensure there is an automated and repeatable release process
-*   Ensure the service generates sufficient logs to enable debugging, monitoring, and incident response.
+*   Ensure the service generates sufficient logs to enable debugging, monitoring, and incident response
 *   Implement sufficient monitoring and alerting to ensure secure and reliable operations
 *   Define service level objectives and design system accordingly
-*   Create shared understanding of software delivery practices that will be used for the product. (languages, framework, deployment target, etc)
+*   Create shared understanding of software delivery practices that will be used for the product (languages, framework, deployment target, etc)
 *   Get buy-in for technology decisions and practices from key decision makers
-*   Create architecture diagrams that incorporate our service and how it interacts with existing systems.
+*   Create architecture diagrams that incorporate our service and how it interacts with existing systems
 *   Conduct security accreditation process with security teams (CDS and/or Partners) to acquire Authority to Operate
-*   Work with team members to create an iterative change approval process that includes relevant members from other disciplines.
+*   Work with team members to create an iterative change approval process that includes relevant members from other disciplines
 *   Get buy in on how to release service changes early and often, to enable rapid improvement based on feedback and policy changes
-*   Learn from software and process failures, through the use of incident reviews (aka: postmortems), and share learnings with your team, partner, and community.
+*   Learn from software and process failures, through the use of incident reviews, and share learnings with your team, partner, and community
 
+#### Product Tech Lead {#product-tech-lead}
+
+This is not a permanent role, but an additional set of responsibilities for the chosen developer. Think of it as a developer “add-on”.
+
+*   Spokesperson for the development team with a good understanding of overall product decisions. The Product tech lead is the touch point for client communication and demos; advocates on behalf of the development team in product, design or research meetings.
+*   Helps bring forth and table issues such as product tech debt, technical skills gap, training needed.
+*   Helps resolve technical conflicts (i.e tie breaker) and manage the technical quality of team deliverables
+*   Main point of contact for incidents during business hours
+*   Coordinate the <a href="https://cds-snc.github.io/guide-product-teams-equipes-produits/release-management-responsibilities/">release management requirements</a>
+*   Responsible for onboarding new developers
+*   Works with line managers in providing feedback on developers’s performance
+
+**What this role is not about**
+*   Review all technical decisions
+*   Define system architectures
 
 ### Policy advisor {#policy-advisor}
 
