@@ -23,18 +23,20 @@ trans_url: "/responsibilities/"
 *   Being able to demonstrate the working service, and explain the reasoning behind key product decisions.
 *   _For partnership products:_ Coaching their “pair” from the partner on how to adapt their expertise to our way of working.
 
-- <a href="#product-manager-responsibilities">Product manager responsibilities</a>
-- <a href="#partnership-advisor-responsibilities">Partnership advisor responsibilities</a>
+---
+
+- <a href="#product-manager-responsibilities">Product manager</a>
+- <a href="#partnership-advisor-responsibilities">Partnership advisor</a>
 - <a href="#service-owner">Service owner</a>
 - <a href="#researcher">Researcher</a>
 - <a href="#designer">Designer</a>
 - <a href="#developer">Developer</a>
-- <a href="#product-tech-lead">Product Tech Lead</a>
+  - <a href="#product-tech-lead">Product Tech Lead</a>
 - <a href="#policy-advisor">Policy advisor</a>
 - <a href="#outreach-advisor">Outreach advisor</a>
 
 
-### Product manager responsibilities {#product-manager-responsibilities}
+### Product manager {#product-manager-responsibilities}
 
 *   Defining the need(s) and vision for the product, and ensuring the team’s aligned with it, given the goals and timeline of the partnership or platform play
 *   Describing the users and their needs, and advocating for these in product decisions, with particular input from the researcher
@@ -59,7 +61,7 @@ _For platform products:_
 * Supporting the engagement and onboarding of early users 
 
 
-### Partnership advisor responsibilities {#partnership-advisor-responsibilities}
+### Partnership advisor {#partnership-advisor-responsibilities}
 
 _For partnership engagements._
 
