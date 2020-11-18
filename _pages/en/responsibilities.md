@@ -23,7 +23,6 @@ trans_url: "/responsibilities/"
 *   Being able to demonstrate the working service, and explain the reasoning behind key product decisions.
 *   _For partnership products:_ Coaching their “pair” from the partner on how to adapt their expertise to our way of working.
 
-
 - <a href="#product-manager-responsibilities">Product manager responsibilities</a>
 - <a href="#partnership-advisor-responsibilities">Partnership advisor responsibilities</a>
 - <a href="#service-owner">Service owner</a>
@@ -163,6 +162,16 @@ _For platform products_
 This is not a permanent role, but an additional set of responsibilities for the chosen developer. Think of it as a developer “add-on”.
 
 *   Spokesperson for the development team with a good understanding of overall product decisions. The Product tech lead is the touch point for client communication and demos; advocates on behalf of the development team in product, design or research meetings.
+*   Helps bring forth and table issues such as product tech debt, technical skills gap, training needed.
+*   Helps resolve technical conflicts (i.e tie breaker) and manage the technical quality of team deliverables
+*   Main point of contact for incidents during business hours
+*   Coordinate the <a href="https://cds-snc.github.io/guide-product-teams-equipes-produits/release-management-responsibilities/">release management requirements</a>
+*   Responsible for onboarding new developers
+*   Works with line managers in providing feedback on developers’s performance
+
+**What this role is not about**
+*   Review all technical decisions
+*   Define system architectures
 
 ### Policy advisor {#policy-advisor}
 
