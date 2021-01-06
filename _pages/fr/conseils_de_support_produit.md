@@ -2,8 +2,8 @@
 layout: homepage
 title:  "Conseils de support produit"
 lang: fr
-permalink: "/product_support_guidance/"
-trans_url: "/conseils_de_support_produit/"
+permalink: "/conseils_de_support_produit/"
+trans_url: "/product_support_guidance/"
 ---
 
 Bientôt disponible

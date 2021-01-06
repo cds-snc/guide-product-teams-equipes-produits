@@ -6,7 +6,7 @@ permalink: "/product_support_guidance/"
 trans_url: "/conseils_de_support_produit/"
 ---
 
-# Default Product Support Model
+# Product support guidance
 
 _Note: This is a draft document. The first version of the document is likely to live in Guide for Product teams (_[_Web_](https://cds-snc.github.io/guide-product-teams-equipes-produits/)_,_ [_GitHub_](https://github.com/cds-snc/guide-product-teams-equipes-produits)_). If you&#39;re looking at this document after January 8, 2021, then we forgot to delete this and you should go look there instead. Updates after then should also be made there_.
 
