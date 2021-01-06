@@ -8,7 +8,7 @@ trans_url: "/conseils_de_support_produit/"
 
 # Product support guidance
 
-This document outlines guidance on how to setup a product team to operationally support a product for production. Teams should feel empowered to override this guidance to better meet their specific needs, but hopefully this enables new teams to bootstrap their operations faster or existing teams to improve areas rapidly that they haven't invested in. While this guidance may be useful to those outside of CDS, the target audience is CDS teams starting a new product and will be optimized as such. Changes always welcome via pull request on this doc!
+This document outlines guidance on how to setup a product team to operationally support a product for production. Teams should feel empowered to override this guidance to better meet their specific needs, but hopefully this enables new teams to bootstrap their operations faster or existing teams to improve areas rapidly that they haven't invested in. While this guidance may be useful to those outside of CDS, the target audience is CDS teams starting a new product and will be optimized as such. Changes always welcome via pull request [on this doc](https://github.com/cds-snc/guide-product-teams-equipes-produits/tree/master/_pages/en)!
 
 There are several parts to product support (below), all of which cross disciplines and phases of working. More detailed descriptions can be found in the [A Model](#_v6k5uja8xz2u) section or by clicking on an element's link.
 
