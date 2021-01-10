@@ -35,29 +35,31 @@ It's recommended that the Delivery Manager is the primary owner of a team's prod
 
 Based on the elements of product support, these are things that a team should have to be ready to support a product:
 
-- User journey map: Document how your users / external stakeholders experience your service
-- Internal stakeholder journey map: Document how government employees interact with your service
-- Up: Define what "up" means in the context of your journey maps and technical architecture
-- SLIs: Indicators agreed upon and documented
-- SLOs: Definition of met, warning, and critical for each SLI
-- SLAs: Documented how team will meet SLOs and what happens if not met
-- Prioritizer role: 2 people named
-- Incident commander role: 5 people named, trained, and scheduled for an oncall rotation
-- Operations role: 5 people named, trained, and scheduled for an oncall rotation
-- User support role: 2 people named
-- Workload management: Team has decided how feature and support work backlog is managed/prioritized, and by who
-- Support/oncall rotations: People are scheduled and there is a single source of truth schedule in OpsGenie
-- Oncall overtime compensation: Has CDS senior management approved overtime for oncall?
+- User journey map: Document how your users / external stakeholders experience your service [(more info)](#setting-and-measuring-objectives)
+- Internal stakeholder journey map: Document how government employees interact with your service [(more info)](#setting-and-measuring-objectives)
+- Up: Define what "up" means in the context of your journey maps and technical architecture [(more info)](#setting-and-measuring-objectives)
+- SLIs: Indicators agreed upon and documented [(more info)](#setting-and-measuring-objectives)
+- SLOs: Definition of met, warning, and critical for each SLI [(more info)](#setting-and-measuring-objectives)
+- SLAs: Documented how team will meet SLOs and what happens if not met [(more info)](#setting-and-measuring-objectives)
+- Prioritizer role: 2 people named [(more info)](#staffing)
+- Incident commander role: 5 people named, trained, and scheduled for an oncall rotation [(more info)](#staffing)
+- Operations role: 5 people named, trained, and scheduled for an oncall rotation [(more info)](#staffing)
+- User support role: 2 people named [(more info)](#staffing)
+- Communication Lead: 1 person named and trained to communicate to users [(more info)](#staffing)
+- Workload management: Team has decided how feature and support work backlog is managed/prioritized, and by who [(more info)](#planning-for-support)
+- Error budget: Threshold(s) is established to indicate when team should prioritize technical/process debt over new features. [(more info)](#error-budgets-and-debt)
+- Support/oncall rotations: People are scheduled and there is a single source of truth schedule in OpsGenie [(more info)](#supportoncall-rotations)
+- Support Training Onboarding: Training for new team members [(more info)](#supportoncall-rotations)
+- Support Training Recurring: Repeated support training and documentation updates are planned to happen quarterly [(more info)](#training-for-oncall)
+- Oncall overtime compensation: Has CDS senior management approved overtime for oncall? [(more info)](#compensation-for-oncall)
   - If not, do your SLAs reflect business hour only support? Do your users know?
-- Support Training Onboarding: Training for new team members
-- Support Training Recurring: Repeated support training and documentation updates are planned to happen quarterly
-- HR processes: Oncall team members know how to file for comp or time in lieu of pay
-- System Access:
+- HR processes: Oncall team members know how to file for comp or time in lieu of pay [(more info)](#compensation-for-oncall)
+- System Access: Does your support team have access to the tools they need? [(more info)](#role-transition)
   - OpsGenie
   - Freshdesk
   - (Anything in your system)
   - Monitoring system
-- Self Serve Content: Do you have published information explaining:
+- Self Serve Content: Do you have published information explaining: [(more info)](#self-serve-help)
   - What is the product, what does it do, what doesn't it do?
   - How to use it
   - How to get help
@@ -65,16 +67,16 @@ Based on the elements of product support, these are things that a team should ha
   - Compliance documentation
   - Is it up?
   - Frequently asked questions (FAQ)
-- Receive Support Requests: Users are able to file tickets or reach out for help (such as via Freshdesk) and someone is monitoring the places that happens
-- Support Request: The team has established how to measure performance handling support requests
-- Feedback: The team has a way to escalate feedback received via
+- Receive Support Requests: Users are able to file tickets or reach out for help (such as via Freshdesk) and someone is monitoring the places that happens [(more info)](#incoming-requests)
+- Support Request: The team has established how to measure performance handling support requests [(more info)]()
+- Feedback: The team has a way to escalate feedback received via [(more info)](#collecting-feedback)
   - Support requests
   - Social and traditional media
   - The product itself
   - Support documentation
 - Business Hours: The team has a shared understanding of what constitutes business hours versus after hours, as well as any changes to responsibilities depending on the time frame (if any).
-- Operational Doc Index: Do you have a document in Google Drive or GitHub that links to all your operational documentation?
-- [Critical docs](#_cwjw6q94y0re): Have you documented the following things and added a link to your Operational Doc Index, and/or your team has a shared understanding around:
+- Operational Doc Index: Do you have a document in Google Drive or GitHub that links to all your operational documentation? [(more info)](#operational-documentation)
+- Critical docs: Have you documented the following things and added a link to your Operational Doc Index, and/or your team has a shared understanding around: [(more info)](#critical-docs)
   - Vision, mission, other team principles
   - Team roster
   - Planning board
@@ -95,7 +97,7 @@ Based on the elements of product support, these are things that a team should ha
   - Decision docs
   - Credential rotation strategy
   - Escalation instructions
-- Offboarding: Do you know how to revoke access and retain knowledge if a team member leaves or needs to be removed.
+- Offboarding: Do you know how to revoke access and retain knowledge if a team member leaves or needs to be removed
 
 ## A Model
 
@@ -123,6 +125,8 @@ Scope went over the "what" and this covers "why" you are supporting a product. T
 - Why are you supporting a product or service?
 - Whose needs are you trying to meet?
 - What does it look like to meet (or not meet) those whys and needs?
+- How are users experiencing your system?
+- How are stakeholders experiencing your system?
 - Which parts of your system are involved in meeting those whys and needs?
   - Which are within your control?
   - Which are outside your control?
@@ -399,7 +403,6 @@ There are a few different ways teams can know when they hit this situation, and 
 
 - Any violation of an SLO (i.e. not the slightly more lax SLA) triggers a prioritization discussion
 - Having a meta SLO around SLO violations, and violation of the meta SLO triggers this pivot automatically
--
 
 ### Compensation for Oncall
 
@@ -506,10 +509,6 @@ Bringing users and stakeholders along proactively is a way to minimize support c
 [Social listening](#_k91kxdqcld6d) was mentioned as a reactive tactic, but the opposite can be effective. Posting on social media, publishing roadmaps, or releasing blog posts about product decisions helps users understand how and why to use your product. It also helps reveal tradeoffs that were made and why, potentially help to veer off frustration from your users. Another benefit is that this kind of activity can foster a community of people around your product (example: Unintentionally, doing the beta for COVID Alert's created a bunch of supporters on Twitter that have both championed the product, given strong feedback on how to improve it, and even submitting code pull requests themselves) It doesn't mean you have to constantly be pumping out blog posts at a fixed cadence, but just when it makes sense to do so. This kind of outreach activity can be planned into the release roadmap to get ahead of things (i.e. for each roadmap item, ask if there is something new that should be shared more vocally), but when things go wrong an acknowledgement or explanation can help retain goodwill.
 
 Marketing is usually intended to acquire users, but it can also be a means of setting expectations. If marketing pushes over promise, users may walk away more frustrated and/or file more requests for support. Two action items teams should take into account are to make sure marketing is strategically planned to set feasible expectations and to make sure the Support Squad is familiar with the marketing push including the vocabulary that is used to describe functionality. Relatedly, a thing to plan is how much budget you can allocate to marketing, as this impacts the ways in which you do it (i.e. more formal ads, grassroots pushing, etc.).
-
-### Additional/cited resources
-
-- Yael Berger was hugely helpful on this entire section on Helping Users (and other sections too)!
 
 ## Support/oncall rotations
 
