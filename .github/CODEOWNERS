@@ -1,0 +1,34 @@
+# Precendence of this file is bottom to top, each line potentially is overridden by one below it
+
+# Minimally, things need to be reviewed by a Digital Practice Lead
+*                               @cds-snc/digital-practice-leads
+
+# General docs applicable to all communities should be reviewed by Director of Digital Practice
+.github/*
+index.html
+_includes/*                     @cds-snc/director-of-digital-practice
+_layouts/*                      @cds-snc/director-of-digital-practice
+_pages/en/*                     @cds-snc/director-of-digital-practice
+_pages/en/general/*             @cds-snc/director-of-digital-practice
+_pages/fr/*                     @cds-snc/director-of-digital-practice
+_pages/fr/général/*             @cds-snc/director-of-digital-practice
+
+# Docs that should be reviewed by the Head of Design
+_pages/en/design/*              @cds-snc/head-of-design
+_pages/fr/conception/*          @cds-snc/head-of-design
+
+# Docs that should be reviewed by the Head of Design Research
+_pages/en/research/*            @cds-snc/head-of-design-research
+_pages/fr/recherche/*           @cds-snc/head-of-design-research
+
+# Docs that should be reviewed by the Head of Policy
+_pages/en/policy/*              @cds-snc/head-of-policy
+_pages/fr/politiques/*          @cds-snc/head-of-policy
+
+# Docs that should be reviewed by the Head of Product Management
+_pages/en/product_management/*  @cds-snc/head-of-product-management
+_pages/fr/gestion_de_produits/* @cds-snc/head-of-product-management
+
+# Docs that should be reviewed by the Head of Software Development
+_pages/en/development/*         @cds-snc/head-of-design
+_pages/fr/développement/*       @cds-snc/head-of-design
