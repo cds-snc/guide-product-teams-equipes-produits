@@ -22,6 +22,17 @@
       rel="shortcut icon"
       href="{{ site.baseurl }}/assets/img/favicon.ico"
     />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Common Google Analytics [UA] setup for CDS GitHub Pages websites -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102484926-22"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-102484926-22', { 'anonymize_ip': true });
+    </script>
 
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
