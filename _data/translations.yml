@@ -15,6 +15,7 @@ en:
   homepage-slug: "/home/"
   site-name: "Guide for product teams"
   toc: "Table of contents"
+  decommission: "ℹ️ This site is no longer maintained and may be taken offline in the future. When available, CDS Learning Resources will link to updated documents."
 fr:
   homepage-tag-line: "French tagline"
   cds-snc: "Service numérique canadien"
@@ -32,3 +33,4 @@ fr:
   homepage-slug: "/accueil/"
   site-name: "Guide pour les équipes produits"
   toc: "Table des matières"
+  decommission: "Ce site n'est plus maintenu et pourrait être mis hors ligne à l'avenir. Dès qu'il sera disponible, le Service des ressources éducatives de la SNC établira un lien vers les documents mis à jour."
